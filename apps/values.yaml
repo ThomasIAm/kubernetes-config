@@ -1,0 +1,9 @@
+config:
+  spec:
+    destination:
+      server: https://kubernetes.default.svc
+    source:
+      repoURL: https://github.com/ThomasIAm/kubernetes-config
+      targetRevision: main
+
+applications:
