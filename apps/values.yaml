@@ -7,3 +7,7 @@ config:
       targetRevision: main
 
 applications:
+  - name: activepieces
+    tool:
+      helm:
+        releaseName: activepieces
